@@ -1,2 +1,2 @@
-# newRepDesignTemplate
-templateOutput
+# NewRepublicDesign
+new NR design with angular

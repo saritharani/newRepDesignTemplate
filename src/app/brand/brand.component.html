@@ -1,0 +1,137 @@
+<app-sidebar></app-sidebar>
+
+
+
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <img [routerLink]="['/']" src="assets/images/logo.png" alt="" />
+        </div>
+        <ul class="list-unstyled components" id="mySidenav">
+            <li><a href="JavaScript:void(0)">About us <span rel="About us"></span></a></li>
+            <li><a href="JavaScript:void(0)">Work <span rel="Work"></span></a></li>
+            <li><a href="JavaScript:void(0)">Services <span rel="Services"></span></a></li>
+            <li><a href="JavaScript:void(0)">Blog <span rel="Blog"></span></a></li>
+            <li><a href="JavaScript:void(0)">Research <span rel="Research"></span></a></li>
+            <li><a href="JavaScript:void(0)">Careers <span rel="Careers"></span></a></li>
+            <li><a href="JavaScript:void(0)">Contact us <span rel="Contact us"></span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content" class="rightSideSection">
+        <!-- partial:index.partial.html -->
+        <div class="slider" id="slider">
+            <div class="box-container">
+                <div class="horizontal-container">
+                    <div class="vertical-container">
+                        <div class="content-container">
+
+                            <!-- <swiper *ngIf="type == 'component' && show" class="swiper-container" [config]="config"
+                                (indexChange)="onIndexChange($event)" fxFlex="auto"> -->
+                                <!-- <div class="swiper-slide">
+                                    <div fxLayout="column" fxLayoutAlign="center center" fxFlexFill>
+                                        <div class="bannerImg">
+                                            <img src="assets/images/HeroImage_OurServices.jpg" class="slideBannerImg" />
+                                            <div class="bannerContent bannerTitle">
+                                                <h2>Our Services</h2>
+                                                <p>The imagination crafting of psychology , art, technology and business
+                                                    to
+                                                    create beautiful ideas, products and services.</p>
+                                                <ul>
+                                                    <li>
+                                                        <img src="assets/images/Icon_Strategy.png" alt=""
+                                                            class="desktopIcon" />
+                                                        <p><span>Branding</span>Brand Strategy</p>
+                                                    </li>
+                                                    <li>
+                                                        <img src="assets/images/Icon_CRO.png" alt=""
+                                                            class="desktopIcon" />
+                                                        <p><span>Branding</span>Brand Strategy</p>
+                                                    </li>
+                                                    <li>
+                                                        <img src="assets/images/Icon_UXDesign.png" alt=""
+                                                            class="desktopIcon" />
+                                                        <p><span>Branding</span>Brand Strategy</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="swiper-slide">
+                                    <div fxLayout="column" fxLayoutAlign="center center" fxFlexFill>
+                                        <div class="bannerImg">
+                                            <img src="assets/images/HeroImage_BrandStrategy.jpg" class="slideBannerImg" />
+                                            <div class="bannerContent bannerTitle">
+                                                <h2>Brand Strategy</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                                <div class="moreBtn">
+                                                    <a href="JavaScript:void(0)">View related Work</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- </swiper> -->
+
+                        </div>
+
+                    </div>
+
+                </div>
+  
+            </div>
+            <!-- partial -->
+            <div class="digiBusSection">
+                <div class="digiImgText">
+                    <div class="digiImg">
+                        <img src="assets/images/Image_DigitalBusiness.jpg" alt="" />
+                    </div>
+                    <div class="digiText textTitle">
+                        <h2>Digital Business <span>Strategy</span></h2>
+                        <p>we work with many organisation to research and assress potential digital, mobile and new
+                            technology business models that can help them differentiate, create new revenues or reduce
+                            the cost of delivery.</p>
+                        <p>Many organisations that aproach us don’t have the background skill or how to identify and
+                            assess how their organisation can take advantage of digital opportunities.</p>
+                        <div class="moreBtn">
+                            <a href="JavaScript:void(0)">View related Work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brandDevSection">
+                <div class="digiImgText">
+                    <div class="digiText textTitle">
+                        <h2>Brand <span>Development</span></h2>
+                        <p>Our brand development process merges traditional brand planning methodologies with new world
+                            digital approach tp devloping brand.</p>
+                        <p>Our process focuses on developing a brands position in market,tone or voice,personality and
+                            communication platform.</p>
+                        <div class="moreBtn">
+                            <a href="JavaScript:void(0)">View related Work</a>
+                        </div>
+                    </div>
+                    <div class="digiImg">
+                        <img src="assets/images/Image_BrandDevelopment.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="stayTouchSection">
+                <div class="stayTouchInner textTitle">
+                    <h2>Stay in touch</h2>
+                    <p>Each month we release a newsletter on how we do what we do. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit</p>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter your email address...">
+                    </div>
+                    <div class="submitBtn">
+                        <button type="button" class="btn btn-primary">Signup to our newsletter</button>
+                    </div>
+                </div>
+            </div>
+            <app-footer></app-footer>
+        </div>
+    </div>

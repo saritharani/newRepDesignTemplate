@@ -1,0 +1,89 @@
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+}
+.slider button.slick-arrow {
+    display: none !important;
+}
+.slider ul.slick-dots {
+    width: auto;
+    right: 0;
+    transform: rotate(90deg);
+    top: 40%;
+    bottom: unset;
+}
+.slider ul.slick-dots li.slick-active button:before {
+    color: #f85bb6;
+}
+.slider ul.slick-dots li button:before {
+    color: #fff;
+    opacity: 1;
+}
+.bannerImg {
+    padding: 0;
+    border: 0 !important;
+    width: 100% !important;
+    position: relative;
+}
+.bannerImg img {
+    width: 100%;
+}
+.bannerContent h1 {
+    margin: 0;
+}
+div#slider.slider {
+    margin-bottom: 0;
+}
+.bannerContent {
+    position: absolute;
+    z-index: 9;
+    width: 540px;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    transform: translate(0%, -50%);
+    left: 0%;
+}
+.bannerTitle h2 {
+    font-size: 53px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 600;
+    line-height: 52px;
+    margin-bottom: 30px;
+}
+.bannerContent p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 28px;
+    color: #868686;
+}
+.bannerContent ul {
+    padding-left: 0;
+}
+.bannerContent ul li img {
+    width: auto;
+    margin: 0 auto;
+}
+.bannerContent ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 35px;
+}
+.bannerContent ul li:last-child {
+    margin-right: 0;
+}
+.bannerContent ul li p {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    line-height: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.bannerContent ul li p span {
+    display: block;
+    line-height: 17px;
+}
