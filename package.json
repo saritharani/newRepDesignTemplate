@@ -23,7 +23,7 @@
     "@angular/router": "~8.2.14",
     "@types/jquery": "^3.3.31",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-slick": "^0.2.1",
     "ngx-swiper-wrapper": "^8.0.2",
     "rxjs": "~6.4.0",
